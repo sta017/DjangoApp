@@ -9,6 +9,8 @@
    {% for data in data_list %}
     <p>Name: {{ data.Name }}</p>
     <p>Value: {{ data.Value }}</p>
+    <p>Compensation: {{data.Compensation}}</p>
+    <p>Coverage Starts in: {{data.Coverage_Starts}}</p> 
    {% endfor %}
   {% else %}
     <p>No data to display.</p>
