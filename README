@@ -2,3 +2,10 @@ This file codes are in preparation to build a system to pull data from MongoDB a
 
 Ignore, mysite folder- was for earlier version. 
 The working model is TestInsurance folder.
+
+Database setup:  Main database- Insurance | Collection - Providers
+
+Workflow: For now, ignore the submit page. 
+1.A CSV file is filled out as per our instructions for different parameters. 
+2.A python file uploads the data to the mongodb
+3.Upon calling the "localhost/display" page, the data is displayed as per the parameters specified in templates/display.html
