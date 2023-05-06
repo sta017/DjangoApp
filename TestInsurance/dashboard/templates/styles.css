@@ -1,0 +1,22 @@
+table {
+  width: 100%; /* Set the width of the table */
+  border: 1px solid black; /* Add a border to the table */
+  border-collapse: collapse; /* Collapse the table borders */
+}
+
+th {
+  background-color: lightgray; /* Set the background color of the table headers */
+  font-weight: bold; /* Make the text bold */
+  text-align: left; /* Align the text to the left */
+  padding: 8px; /* Add padding to the cells */
+}
+
+td {
+  border: 1px solid black; /* Add a border to the cells */
+  text-align: left; /* Align the text to the left */
+  padding: 8px; /* Add padding to the cells */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Set the background color of even-numbered rows */
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+</head>
+<body>
+  <h1>Data stored</h1>
+  {% if data_list %}
+   {% for data in data_list %}
+    <p>Name: {{ data.name }}</p>
+    <p>Value: {{ data.value }}</p>
+   {% endfor %}
+  {% else %}
+    <p>No data to display.</p>
+  {% endif %}
+ 
+</body>
+</html>
