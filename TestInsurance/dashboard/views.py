@@ -17,7 +17,7 @@ def submit(request):
         # Insert the form data into the MongoDB collection
         name = request.POST.get('name')
         value = request.POST.get('value')
-        collection.insert_one({'name': name, 'value': value})
+        collection.insert_one({'Name': name, 'Value': value})
 
         return HttpResponse("Form submission successful!")
     else:

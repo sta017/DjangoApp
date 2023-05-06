@@ -5,6 +5,6 @@ from .models import Data
 class DataSerializer(serializers.HyperlinkedModelSerializer):
   class Meta:
      model = Data
-     fields = ('name', 'value')
+     fields = ('Name', 'Value')
 
 
