@@ -1,0 +1,18 @@
+
+1. IN the app folder (eg: dashboard), I created "templates" folder. 
+2.In "templates" folder, I put the html page to be used (here, Insurance_compare.html)
+
+3. In the django-app folder(eg: dashboard),in the views.py:
+  use the render and request commands to point to the html page.
+
+4. In the same django-app folder, in urls.py:
+    use the 'path' command to assign the url 
+
+5. Also, update the django-app folder in the django-project folder (here: mysite): 
+       use the 'path' command to assign the url
+
+6. THen run the command: ( python manage.py runserver ) in the project folder.
+
+ 
+Eg:url link in https://youtu.be/6WpAZmTsJXI
+
